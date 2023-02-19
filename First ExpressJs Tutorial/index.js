@@ -1,16 +1,21 @@
-const express = require('express');
+//const express = require('express');
 //accessing locals from different files
 //const handle = require('./handle')
 
 //express app initialization
-const app = express();
-app.locals.title = 'My App';
+//const app = express();
+//app.locals.title = 'My App';
 // app.get('/', (req, res) => {
 //     res.send('This is get method.')
 // });
+//const express = require('express');
+//const bodyParser = require('body-parser');
+//const app = express();
 
+//app.use(bodyParser.json());
+//app.use(bodyParser.urlencoded({ extended: false }));
 // app.post('/', (req, res) => {
-//     res.send('This is post method.')
+//       res.send('Data Received: ' + JSON.stringify(req.body));
 // });
 
 // app.listen(5500, () => {
